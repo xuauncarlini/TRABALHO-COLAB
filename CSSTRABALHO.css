@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #263138
+}
+
+
+header{
+    background-color: #009966;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+
+}
+
+header a{
+    color: #ffffff;
+    font-weight: 100;
+    padding: 32px;
+    text-decoration: none;
+}
+
+#img{
+    border-radius: 100px; 
+}
+
+#inicio{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    /*topo, direita, baixo e esquerda */
+    padding: 24px 80px 128px 80px;
+    position: relative;
+}
+
+h1,h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.botao{
+    background-color: #009966;
+    border-radius: 8px;
+    color: #ffffff;
+    /*VERTICAL, HORIZONTAL*/
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+.botao-transparente{
+    background-color: transparent;
+    color: #009966;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+#resumo{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+#clinica{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+#resumo li{
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+#clinica li{
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+
+
+
